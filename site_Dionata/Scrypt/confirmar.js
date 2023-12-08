@@ -170,7 +170,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const dadosCodificados = encodeURIComponent(
             JSON.stringify(dadosParaEnvio)
         );
-        const urlDestino = `http://127.0.0.1:5500/pages/pedidos.html#?dados=${dadosCodificados}`;
+        const urlDestino = `https://nthmateus28.github.io/MD-TESTE/site_Dionata/pages/pedidos.html?dados=${dadosCodificados}`;
 
         // Redireciona para a página de destino
         window.location.href = urlDestino;
